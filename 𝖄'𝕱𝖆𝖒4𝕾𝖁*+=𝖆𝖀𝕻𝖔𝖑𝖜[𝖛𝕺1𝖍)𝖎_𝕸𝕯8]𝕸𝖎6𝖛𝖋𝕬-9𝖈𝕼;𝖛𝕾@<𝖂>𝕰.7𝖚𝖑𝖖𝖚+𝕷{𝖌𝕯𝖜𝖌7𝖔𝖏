@@ -1,0 +1,47 @@
+gg.setVisible(false)
+gg.alert("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
+
+function Main()
+menu = gg.choice({
+'💎Premiumᵁⁿˡᵒᶜᵏᵉᵈ',
+'🌐Gameᶠʳᵉᵉ',
+'Script Updates',
+'𝗘𝗫𝗜𝗧'},
+nil,'Version 1.0')
+if menu == 1 then a1() end
+if menu == 2 then a2() end
+if menu == 3 then a3() end
+if menu == 4 then Exit() end
+GameGuardian=-1
+end
+
+
+
+function a1()
+
+end
+
+function a2()
+
+end
+
+function a3()
+gg.alert('Script will be automatically updated.')
+end
+
+function Exit()
+print("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
+os.exit()
+end
+
+cs = ''
+while(true)do
+if gg.isVisible(true) then
+GameGuardian=1
+gg.setVisible(false)
+end
+gg.clearResults()
+if GameGuardian==1 then
+Main()
+end
+end
