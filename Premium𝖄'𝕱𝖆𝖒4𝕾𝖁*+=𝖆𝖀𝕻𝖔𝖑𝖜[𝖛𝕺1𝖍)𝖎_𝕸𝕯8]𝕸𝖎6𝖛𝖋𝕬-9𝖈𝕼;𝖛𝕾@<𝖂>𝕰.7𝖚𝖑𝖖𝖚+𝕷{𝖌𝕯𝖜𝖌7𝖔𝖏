@@ -1,3 +1,4 @@
+gg.setVisible(false)
 gg.alert("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
 
 function Main()
