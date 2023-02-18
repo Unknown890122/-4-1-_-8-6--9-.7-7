@@ -1,1 +1,53 @@
-Test
+gg.setVisible(false)
+gg.alert("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
+
+function Main()
+menu = gg.choice({
+'Test',
+'Test',
+'Test',
+'Test',
+'𝗘𝗫𝗜𝗧',
+nil,'💎Premium')
+if menu == 1 then a1() end
+if menu == 2 then a2() end
+if menu == 3 then a3() end
+if menu == 4 then a4() end
+if menu == 5 then Exit() end
+GameGuardian=-1
+end
+
+
+
+function a1()
+gg.alert('Hack A Activated')
+end
+
+function a2()
+gg.alert('Hack B Activated')
+end
+
+function a3()
+gg.alert('Hack C Activated')
+end
+
+function a4()
+gg.alert('Hack D Activated')
+end
+
+function Exit()
+print("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
+os.exit()
+end
+
+cs = ''
+while(true)do
+if gg.isVisible(true) then
+GameGuardian=1
+gg.setVisible(false)
+end
+gg.clearResults()
+if GameGuardian==1 then
+Main()
+end
+end
