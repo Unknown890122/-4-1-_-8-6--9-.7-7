@@ -1,5 +1,5 @@
 gg.setVisible(false)
-gg.alert("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
+gg.alert("💎Premium")
 
 function Main()
 menu = gg.choice({
@@ -14,7 +14,7 @@ if menu == 2 then p2() end
 if menu == 3 then p3() end
 if menu == 4 then p4() end
 if menu == 5 then Exit() end
-GameGuardian=-1
+GameGuardian1=-1
 end
 
 
@@ -36,18 +36,18 @@ gg.alert('Hack D Activated')
 end
 
 function Exit()
-print("𝕄𝕒𝕕𝕖 𝔹𝕪 𝕌𝕟𝕜𝕟𝕠𝕨𝕟")
+print("💎Premium")
 os.exit()
 end
 
 cs = ''
 while(true)do
 if gg.isVisible(true) then
-GameGuardian=1
+GameGuardian1=1
 gg.setVisible(false)
 end
 gg.clearResults()
-if GameGuardian==1 then
+if GameGuardian1==1 then
 Main()
 end
 end
