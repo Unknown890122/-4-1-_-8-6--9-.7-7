@@ -9,29 +9,29 @@ menu = gg.choice({
 'Test',
 '𝗘𝗫𝗜𝗧',
 nil,'💎Premium')
-if menu == 1 then a1() end
-if menu == 2 then a2() end
-if menu == 3 then a3() end
-if menu == 4 then a4() end
+if menu == 1 then p1() end
+if menu == 2 then p2() end
+if menu == 3 then p3() end
+if menu == 4 then p4() end
 if menu == 5 then Exit() end
 GameGuardian=-1
 end
 
 
 
-function a1()
+function p1()
 gg.alert('Hack A Activated')
 end
 
-function a2()
+function p2()
 gg.alert('Hack B Activated')
 end
 
-function a3()
+function p3()
 gg.alert('Hack C Activated')
 end
 
-function a4()
+function p4()
 gg.alert('Hack D Activated')
 end
 
