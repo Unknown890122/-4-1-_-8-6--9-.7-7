@@ -1,20 +1,17 @@
-gg.setVisible(false)
-gg.alert("💎Premium")
-
 function Main()
 menu = gg.choice({
-'Test',
-'Test',
-'Test',
-'Test',
-'𝗘𝗫𝗜𝗧',
+'HACK A',
+'HACK B',
+'HACK C',
+'HACK D',
+'𝗘𝗫𝗜𝗧'},
 nil,'💎Premium')
 if menu == 1 then p1() end
 if menu == 2 then p2() end
 if menu == 3 then p3() end
 if menu == 4 then p4() end
 if menu == 5 then Exit() end
-GameGuardian1=-1
+Premium=-1
 end
 
 
@@ -36,18 +33,18 @@ gg.alert('Hack D Activated')
 end
 
 function Exit()
-print("💎Premium")
+print("")
 os.exit()
 end
 
 cs = ''
 while(true)do
 if gg.isVisible(true) then
-GameGuardian1=1
+Premium=1
 gg.setVisible(false)
 end
 gg.clearResults()
-if GameGuardian1==1 then
+if Premium==1 then
 Main()
 end
 end
