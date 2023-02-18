@@ -1,1 +1,53 @@
-Test
+gg.setVisible(false)
+gg.alert('Click game guardian again to open script')
+
+function Main()
+menu = gg.choice({
+'HACK A',
+'HACK B',
+'HACK C',
+'HACK D',
+'𝗘𝗫𝗜𝗧'},
+nil,'🌐Game')
+if menu == 1 then g1() end
+if menu == 2 then g2() end
+if menu == 3 then g3() end
+if menu == 4 then g4() end
+if menu == 5 then Exit() end
+Game=-1
+end
+
+
+
+function g1()
+gg.alert('Hack A Activated')
+end
+
+function g2()
+gg.alert('Hack B Activated')
+end
+
+function g3()
+gg.alert('Hack C Activated')
+end
+
+function g4()
+gg.alert('Hack D Activated')
+end
+
+function Exit()
+print("")
+os.exit()
+end
+
+cs = ''
+while(true)do
+if gg.isVisible(true) then
+Game=1
+gg.setVisible(false)
+end
+gg.clearResults()
+if Game==1 then
+Main()
+end
+end
