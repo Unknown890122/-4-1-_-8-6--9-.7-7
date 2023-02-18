@@ -1,7 +1,6 @@
 gg.setVisible(false)
 gg.alert('Click game guardian again to open script')
 
-
 function Main()
 menu = gg.choice({
 'HACK A',
